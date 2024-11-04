@@ -44,16 +44,16 @@ def xor_with_42_reverse(value):
 def decode(encoded_message):
     # Reverse the steps
     values_after_churn = reverse_churn(encoded_message)
-    print(values_after_churn)
-    # values_after_butter = reverse_butter(values_after_churn)
-    # original_message = reverse_pop(values_after_butter)
-    # return original_message
+    # print(values_after_churn)
+    values_after_butter = reverse_butter(values_after_churn)
+    original_message = reverse_pop(values_after_butter)
+    return original_message
 
 
-    # Example usag
-encoded_message = open("message2.txt").read().strip()
-decoded_message = decode(encoded_message)
-# try:
-#     print(decoded_message)
-# except Exception:
-#     pass
+for p in range(57983):
+    encoded_message = open("message2.txt").read().strip()
+    decoded_message = decode(encoded_message)
+    try:
+        print(decoded_message)
+    except Exception:
+        pass
