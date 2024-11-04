@@ -35,6 +35,8 @@ username=jbarker&filename=hoolicon&filepw=conjoined_TRIANGLES
 
 as we can see the password is `conjoined_TRIANGLES`
 
+![](./flagimg.png)
+
 ```
 CYBORG{pe4cefaRe_4x09}
 ```
